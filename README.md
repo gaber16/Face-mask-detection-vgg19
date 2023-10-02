@@ -6,3 +6,6 @@ We have the .ipynb file which the construction of our model and the realTimeDete
 - We start off by augmenting the data we have using Image Data Generator in keras and specifying the directories of the images.
 - Then we fit the model after adding a dense layer for the output and train the model using the data genereted.
 - Finally we use openCV to get real time detection of the dace using the haar cascade of the frontal face and combine it with our saved model to check whether the face has a mask on or no.
+
+I have used the Face Mask Detection dataset from kaggle and worked in a kaggle notebook for building the model then I saved it and continued on my local machine.
+link for dataset: https://www.kaggle.com/datasets/ashishjangra27/face-mask-12k-images-dataset/data
